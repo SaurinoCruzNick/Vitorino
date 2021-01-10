@@ -1,0 +1,90 @@
+<form action="">
+    <div class="form-group row mt-3">
+      <div class="col-12 col-md-4">
+        <label for="generales">Datos Generales</label>
+      </div>
+    </div>
+
+    <div class="form-group row mt-3">
+      <div class="col-12 col-md-3">
+        <label for="cliente">Tipo de Cliente</label>
+        <select name="cliente" id="cliente" class="form-control">
+          <option value="natural">Natural</option>
+          <option value="juridica">Juridica</option>
+        </select>
+      </div>
+
+      <div class="col-12 col-md-3">
+        <label for="cod">Codigo</label>
+        <input type="number" class="form-control" placeholder="Codigo" name="cod" id="cod">
+      </div>
+    </div>
+
+    <div class="form-group row mt-3">
+      <div class="col-12 col-md-4">
+        <label for="pate">Apellido Paterno</label>
+        <input type="text" class="form-control" placeholder="Apellido Paterno" name="pate" id="pate">
+      </div>
+
+      <div class="col-12 col-md-4">
+        <label for="mate">Apellido Materno</label>
+        <input type="text" class="form-control" placeholder="Apellido Materno" name="mate" id="mate">
+      </div>
+
+      <div class="col-12 col-md-4">
+        <label for="nom">Nombres</label>
+        <input type="text" class="form-control" placeholder="Nombres" name="nom" id="nom">
+      </div>
+    </div>
+
+    <div class="form-group row mt-3">
+      <div class="col-12 col-md-6">
+        <label for="razon">Razon Social</label>
+        <input type="text" disabled class="form-control" placeholder="Razon Social" name="razon" id="razon">
+      </div>
+    </div>
+    
+    <hr>
+
+    <div class="form-group row">
+      <div class="col-12 col-md-4">
+        <label for="generales">Datos Adicionales</label>
+      </div>
+    </div>
+
+    <div class="form-group row mt-3">
+      <div class="col-12 col-md-3">
+        <label for="telf">Telefono Casa</label>
+        <input type="number" class="form-control" placeholder="Telefono Casa" name="telf" id="telf">
+      </div>
+
+      <div class="col-12 col-md-3">
+        <label for="num">Numero Celular</label>
+        <input type="number" class="form-control" placeholder="Numero Celular" name="num" id="num">
+      </div>
+
+      <div class="col-12 col-md-3">
+        <label for="sex">Sexo</label>
+        <input type="text" class="form-control" placeholder="Sexo" name="sex" id="sex">
+      </div>
+
+      <div class="col-12 col-md-3">
+        <label for="correo">Email</label>
+        <input type="email" class="form-control" placeholder="Correro Electronico" name="correo" id="correo">
+      </div>
+    </div>
+
+    <div class="form-group row mt-3">
+      <div class="col-12">
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <button class="btn btn-primary btn-block" type="submit">Guardar</button>
+          </div>
+
+          <div class="col-3">
+            <button class="btn btn-primary btn-block" type="cancelar">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</form>
